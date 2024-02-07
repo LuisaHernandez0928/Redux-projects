@@ -13,3 +13,29 @@ body {
   display: grid;
   place-content: center;
 }
+
+input, button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 200;
+  line-height: 0.5rem;
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid #DDD;
+  outline: 0;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+  height: fit-content;
+}
